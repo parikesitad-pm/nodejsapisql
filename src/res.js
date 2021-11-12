@@ -7,5 +7,5 @@ exports.ok = function (value, res) {
   };
 
   res.json(data);
-  res.end;
+  res.end();
 };
