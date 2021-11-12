@@ -1,0 +1,25 @@
+{
+  "name": "nodejsapisql",
+  "version": "1.0.0",
+  "description": "Latihan rest nodeJs with MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parikesitad-pm/nodejsapisql.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "ParikesitAD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parikesitad-pm/nodejsapisql/issues"
+  },
+  "homepage": "https://github.com/parikesitad-pm/nodejsapisql#readme"
+}
