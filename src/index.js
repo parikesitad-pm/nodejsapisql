@@ -10,6 +10,6 @@ app.use(bodyParser.json());
 var routes = require("./routes");
 routes(app);
 
-app.listen(3306, () => {
+app.listen(3307, () => {
   console.log(`Server Online`);
 });

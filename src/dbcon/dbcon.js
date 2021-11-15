@@ -1,4 +1,4 @@
-var mysql = require("mysql");
+const mysql = require("mysql");
 
 // db connection
 const conn = mysql.createConnection({
@@ -9,7 +9,10 @@ const conn = mysql.createConnection({
 });
 
 conn.connect((err) => {
-  if (err) throw err;
+  if (err) {
+    console.log("MySQL not connected");
+    return;
+  }
   console.log("MySQL connected");
 });
 

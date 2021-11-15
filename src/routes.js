@@ -1,7 +1,9 @@
 "use strict";
 
 module.exports = function (app) {
-  var myjson = require("./controller");
+  const myjson = require("./controller");
 
   app.route("/").get(myjson.index);
+
+  app.route("/show").get(myjson.showalldata);
 };
